@@ -201,7 +201,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 # assign [class="Thunderbird"] $ws1
 assign [class="Pale moon"] $ws2
 assign [class="chrom"] $ws2
-assign [class="Thunar"] $ws3
+assign [class="Pcmanfm"] $ws3
 assign [class="Wps"] $ws4
 assign [class="Et"] $ws4
 assign [class="Wpp"] $ws4
