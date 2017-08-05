@@ -38,4 +38,6 @@ alias cd3='sudo mount -t iso9660 /home/debian-9.0.0-amd64-DVD-3.iso /media/cdrom
 
 alias linuxcd='sudo mount -t iso9660 /home/tao/bcloud/\[Linux典藏大系.Linux从入门到精通/\[Linux典藏大系.Linux从入门到精通\].\(随书光盘\).iso /media/cdrom'
 alias show='apt-cache show'
+alias downiso='wget http://mirrors.163.com/debian-cd/current/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso'
+
 alias t='tldr'
