@@ -1,0 +1,6 @@
+#!/bin/bash
+
+conky -c ~/.rcfiles/conky1.10_shortcuts_maia &&
+conky -c ~/.rcfiles/conky_maia &&
+
+exit 0
