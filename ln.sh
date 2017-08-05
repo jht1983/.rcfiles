@@ -13,4 +13,4 @@ ln -sf /home/tao/.rcfiles/debiancn.sh ~/bin/debiancn.sh
 sudo ln -sf /home/tao/.rcfiles/dmenu-frecency /usr/bin/dmenu-frecency
 ln -sf /home/tao/.rcfiles/unzipgbk ~/bin/unzipgbk
 ln -sf /home/tao/.rcfiles/ydcv ~/bin/ydcv
-ln -sf /home/tao/.rcfiles/start_conky_maia ~/bin/start_conky_maia
+sudo ln -sf /home/tao/.rcfiles/start_conky_maia /usr/bin/start_conky_maia
