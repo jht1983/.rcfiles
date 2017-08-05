@@ -1,4 +1,5 @@
 #!/bin/bash
+#This file must be in /usr/bin	
 
 conky -c ~/.rcfiles/conky1.10_shortcuts_maia &&
 conky -c ~/.rcfiles/conky_maia &&
