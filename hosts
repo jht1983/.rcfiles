@@ -1,5 +1,4 @@
 #!/bin/bash
 sudo wget https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O /etc/hosts
-sudo sh -c 'echo "127.0.0.1 tao-deb tao">>/etc/hosts'
 echo "更新hosts完成"
 
