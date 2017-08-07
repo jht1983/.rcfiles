@@ -10,11 +10,11 @@ npm install -g tldr
 
 wget lantern.deb
 sudo dpkg -i lantern.deb
-sudo apt install --fix-broked
+sudo apt --fix-broken install
 sudo apt install libappindent3-1
 
 wget typora.deb
 sudo dpkg -i typora.deb
-sudo apt install --fix-broked
+sudo apt --fix-broken install
 
 
