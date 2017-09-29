@@ -1,4 +1,5 @@
 #命令别名 {{{
+alias usb='pmount /dev/sdb1'
 alias winc='sudo mount /dev/sda1 /home/tao/win'
 alias wind='sudo mount /dev/sda5 /home/tao/data'
 alias sy='sudo synaptic-pkexec'
@@ -41,3 +42,6 @@ alias show='apt-cache show'
 alias downiso='wget http://mirrors.163.com/debian-cd/current/amd64/iso-cd/debian-9.1.0-amd64-netinst.iso'
 
 alias t='tldr'
+alias qemuiso='qemu-system-x86_64 -enable-kvm -m 1GB -vga qxl -cdrom'
+alias qemuimg='qemu-system-x86_64 -enable-kvm -m 1GB -vga qxl -hda'
+alias vialias='vi ~/.bash_aliases'
