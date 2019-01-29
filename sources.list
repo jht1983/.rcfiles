@@ -7,3 +7,5 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian/ testing-updates main contrib no
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ testing-backports main contrib non-free
 deb https://mirrors.tuna.tsinghua.edu.cn/debian-security testing/updates main contrib non-free
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security testing/updates main contrib non-free
+
+deb https://mirrors.ustc.edu.cn/debiancn/ testing main
