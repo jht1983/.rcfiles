@@ -3,9 +3,7 @@
 
 cd /tmp
 wget https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb
-sudo dpkg -i lantern.deb
-sudo apt --fix-broken install
-sudo apt install libappindent3-1
+sudo dpkg -i lantern-installer-64-bit.deb
 
 wget npm.tar.gz
 tar xcvf npm.tar.gz
