@@ -11,7 +11,7 @@ sudo apt-get install zsh axel mlocate apt-transport-https i3 j4-dmenu-desktop xo
 #sudo apt install synaptic
 #sudo apt install mysql litesql
 #sudo apt install 
-#其他常用软件：lantern goagent typora onedrive pycharm Vundle mousepad kate foxitreader virtualbox-guest-dkms
+#其他常用软件：lantern goagent typora onedrive pycharm Vundle mousepad kate
 
 pip install docopt
 
