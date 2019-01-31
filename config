@@ -68,6 +68,7 @@ bindsym $mod+F1 exec typora
 bindsym $mod+F2 exec google-chrome
 bindsym $mod+F3 exec pcmanfm
 bindsym $mod+F4 exec wps 
+bindsym $mod+F5 exec virtualbox 
 # bindsym $mod+F3 exec range
 bindsym $mod+Shift+F3 exec gksu pcmanfm 
 bindsym $mod+F5 exec rxvt -e 'mocp'
