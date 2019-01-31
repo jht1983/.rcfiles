@@ -1,7 +1,7 @@
 #命令别名 {{{
 alias usb='pmount /dev/sdb1'
-alias winc='sudo mount /dev/sda1 /home/tao/win'
-alias wind='sudo mount /dev/sda5 /home/tao/data'
+alias winc='sudo mount -t ntfs-3g /dev/sda2 /home/tao/c'
+alias wind='sudo mount -t ntfs-3g /dev/sda1 /home/tao/d'
 alias sy='sudo synaptic-pkexec'
 alias cp='cp -i'
 alias con='vim ~/.i3/config'
@@ -25,16 +25,15 @@ alias fhttp='python3 -m http.server'
 # 定位
 alias l='locate'
 # 安装软件
-alias a='sudo apt install'
+alias a='sudo apt-get install'
 alias inst='sudo aptitude install'
 alias s='aptitude search'
 
 # 修复软件安装依赖
 alias fixit='sudo apt --fix-broken install'
 
-alias cd1='sudo mount -t iso9660 /home/debian-9.0.0-amd64-DVD-1.iso /media/cdrom'
-alias cd2='sudo mount -t iso9660 /home/debian-9.0.0-amd64-DVD-2.iso /media/cdrom'
-alias cd3='sudo mount -t iso9660 /home/debian-9.0.0-amd64-DVD-3.iso /media/cdrom'
+alias cd1='sudo mount -t iso9660 /home/debian-9.7.0-amd64-DVD-1.iso /media/cdrom'
+
 #}}}
 
 alias linuxcd='sudo mount -t iso9660 /home/tao/bcloud/\[Linux典藏大系.Linux从入门到精通/\[Linux典藏大系.Linux从入门到精通\].\(随书光盘\).iso /media/cdrom'
