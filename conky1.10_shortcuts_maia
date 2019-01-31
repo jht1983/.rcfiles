@@ -3,7 +3,7 @@ conky.config = {
 	background = true,
 	color2 = '80FFF9',
 	cpu_avg_samples = 2,
-	default_color = 'aa0000',
+	default_color = 'FFFF00',
 	double_buffer = true,
 	font = 'Bitstream Vera Sans:size=8',
 	draw_shades = false,
@@ -18,6 +18,31 @@ conky.config = {
 	use_xft = true,
 }
 conky.text = [[
+${color2} alias vialias='vi ~/.bash_aliases'
+${color2} alias usb='pmount /dev/sdb1'
+${color2} alias winc='sudo mount -t ntfs-3g /dev/sda2 /home/tao/c'
+${color2} alias wind='sudo mount -t ntfs-3g /dev/sda1 /home/tao/d'
+${color2} alias sy='sudo synaptic-pkexec'
+${color2} alias remove='sudo apt remove'
+${color2} alias sdb='sudo updatedb'
+${color2} alias h='htop'
+${color2} alias svi='sudo vim'
+${color2} alias findps='ps -ef | grep '
+${color2} alias con='vim ~/.i3/config'
+${color2} alias top10='print -l  ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
+${color2} alias show='apt-cache show'
+${color2} alias downiso='wget debian-testing-amd64-netinst.iso'
+${color2} alias t='tldr'
+${color2} alias fhttp='python3 -m http.server'
+${color2} alias l='locate'
+${color2} alias a='sudo apt-get install'
+${color2} alias inst='sudo aptitude install'
+${color2} alias s='aptitude search'
+${color2} alias fixit='sudo apt --fix-broken install'
+
+${color2}switch window v - ${color}mod+v
+${color2}switch window h - ${color}mod+h
+${color2}open new terminal - ${color}mod+Enter
 ${color2}open new terminal - ${color}mod+Enter
 ${color2}kill focused - ${color}mod+q
 ${color2}toggle split direction - ${color}mod+Shift+q
