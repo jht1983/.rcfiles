@@ -15,3 +15,5 @@ ln -sf /home/tao/.rcfiles/unzipgbk ~/bin/unzipgbk
 ln -sf /home/tao/.rcfiles/ydcv ~/bin/ydcv
 sudo ln -sf /home/tao/.rcfiles/start_conky_maia /usr/bin/start_conky_maia
 sudo ln -s /usr/bin/nodejs /usr/bin/node
+sudo gpasswd --add tao dialout
+
