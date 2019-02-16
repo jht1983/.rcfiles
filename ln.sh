@@ -8,6 +8,7 @@ ln -sf /home/tao/.rcfiles/config ~/.i3/config
 ln -sf /home/tao/.rcfiles/i3status.conf ~/.i3status.conf
 #ln -sf /home/tao/.rcfiles/vimrc ~/.vimrc
 
+cp -f ~/.rcfiles/user-dirs.dirs ~/.config
 ln -sf /home/tao/.rcfiles/hosts ~/bin/hosts
 ln -sf /home/tao/.rcfiles/debiancn.sh ~/bin/debiancn.sh
 sudo ln -sf /home/tao/.rcfiles/dmenu-frecency /usr/bin/dmenu-frecency
