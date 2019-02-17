@@ -4,9 +4,9 @@
 cd /tmp
 wget https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer-64-bit.deb
 sudo dpkg -i lantern-installer-64-bit.deb
-
+#download form mirror.taobao.com
 wget npm.tar.gz
-tar xcvf npm.tar.gz
+tar zxf npm.tar.gz
 cd npm
 make && make install
 npm install -g tldr
